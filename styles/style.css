@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CТИЛИ ДЛЯ ВОПРОСОВ-ОТВЕТОВ */
+.quiz {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.quiz-questions {
+
+}
+
+.quiz-questions__item {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+quiz-questions__item--question {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.quiz-questions__item--answers {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.quiz-indicator {
+    margin-bottom: 20px;
+}
+
+.btn-next {
+
+}
+
+.btn-restart {
+    display: none;
+}
+
+.quiz-results {
+    display: none;
+}
+
+.question--hidden,
+.indicator--hidden,
+.btn-next--hidden {
+    display: none;
+}
+
+.indicator--visible,
+.btn-restart--visible {
+    display: block;
+}
