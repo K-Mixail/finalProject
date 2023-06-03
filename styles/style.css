@@ -56,6 +56,7 @@ a {
 .flex-ai-center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .flex-column {
@@ -74,6 +75,66 @@ a {
     flex-direction: column;
     align-items: center;
 }
+
+/* кнопки перехода между страницами*/
+.go-page .btn-page {
+    margin-right: 25px;    
+    margin-left: 25px;
+}
+
+.btn-page {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border: 1px solid grey;  
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-page a {
+    color: #282c50;
+}
+
+.btn-page__main {
+    width: 100px;
+    background-color: #f3e2fc;
+}
+
+.btn-page__main:hover {
+    background-color: #e2c4f1;
+    font-weight: 600;
+}
+
+.btn-page__back,
+.btn-page__next {
+    background-color: #b0b7f8;
+    width: 90px;
+}
+
+.btn-page__back:hover,
+.btn-page__next:hover {
+    background-color: #99a3f8;
+}
+
+.btn-page__back img {
+    margin-right: 5px;
+}
+
+.btn-page__next img {
+    margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* CТИЛИ ДЛЯ ВОПРОСОВ-ОТВЕТОВ */
 .quiz {
