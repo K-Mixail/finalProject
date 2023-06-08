@@ -1,0 +1,16 @@
+@media screen and (max-width: 1200px) {
+/* На устройства 1024px*/
+
+    .container {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  
+  }
+  
+
+@media screen and (max-width: 1020px) {
+/* На устройства 768px*/
+
+
+}

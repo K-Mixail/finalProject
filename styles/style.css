@@ -10,7 +10,8 @@ body {
 
 .container {
     width: 1140px;
-    margin: 0 auto;   
+    margin: 0 auto;  
+    /* border: 2px solid red;  */
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
