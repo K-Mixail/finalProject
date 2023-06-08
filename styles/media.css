@@ -2,8 +2,8 @@
 /* На устройства 1024px*/
 
     .container {
-      padding-left: 60px;
-      padding-right: 60px;
+      margin-left: 60px;
+      margin-right: 60px;
     }
   
   }
