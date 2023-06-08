@@ -35,6 +35,15 @@ a {
     margin-bottom: 60px;
 }
 
+.content-with-img {
+    padding-right: 100px;
+}
+
+.main-img-page {
+    width: 250px;
+    height: 250px;
+}
+
 /*font-size for text*/
 .small-text {
     font-weight: 400;
@@ -62,6 +71,7 @@ a {
 .flex-sb {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex-ai-center {
