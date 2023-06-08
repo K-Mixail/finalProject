@@ -2,8 +2,7 @@
 /* На устройства 1024px*/
 
     .container {
-        padding-left: 40px;
-        padding-right: 140px;
+        width: 1000px;
     }
   
   }
