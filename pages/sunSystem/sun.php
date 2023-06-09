@@ -12,9 +12,13 @@
 </head>
 <body>
 
-    <header></header>
+
 
     <div class="container">
+            
+        <?php require_once '../../layout/header.php';?>
+
+
         <h2 class="page-title">Солнце</h2>
 
         <section class="section-margin flex-ai-center">
