@@ -12,9 +12,10 @@
 </head>
 <body>
 
-    <header></header>
-
     <div class="container">
+
+        <?php require_once '../../layout/header.php';?>
+
         <h2 class="page-title">Cолнечная система</h2>
 
         <section class="history, medium-text, section-margin">

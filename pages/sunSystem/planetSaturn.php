@@ -12,9 +12,10 @@
 </head>
 <body>
 
-    <header></header>
-
     <div class="container">
+        
+        <?php require_once '../../layout/header.php';?>
+    
         <h2 class="page-title">Сатурн</h2>
 
         <section class="section-margin flex-ai-center">
@@ -64,13 +65,13 @@
 
         <section class="go-page section-margin flex-ai-center">
             <div class="btn-page btn-page__back">
-                <a href="planetJupiter.html">
+                <a href="planetJupiter.php">
                 <img src="../../images/page-back.png" alt="">
                 Назад
                 </a>
             </div>
             <div class="btn-page btn-page__next">
-                <a href="planetUranus.html">
+                <a href="planetUranus.php">
                 Далее
                 <img src="../../images/page-next.png" alt="">
                 </a>
