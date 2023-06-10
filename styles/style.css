@@ -17,6 +17,13 @@ body {
     line-height: 130%;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Шапка сайта*/
 .header {
     background-image: url("../images/тест2.jpg");
     width: 100%; 
@@ -25,18 +32,25 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-ul {
-    margin: 0;
-    padding: 0;
-}
  
 .header-nav {
     display: flex;
     justify-content: space-around;
     align-content: center;
-    color: white;
+    color: red;
     padding-top: 20px;
+}
+
+.sun-system__content {  
+    display: none;   
+    color: white;
+    /* margin: -25px 100px 20px 50px;
+    line-height: 130%; */
+}
+
+.sun-system.is-open .sun-system__content {  
+    display: flex;
+    flex-direction: column;
 }
 
 
